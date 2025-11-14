@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+            
+            :root {
+                --primary-color: #1572A1;    
+                --secondary-color: #98C1D9;   
+                --background-color: #F7FAFC; 
+                --text-color: #22223B;       
+                --highlight-color: #E0FBFC;  
+            }
+            
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: 'Open Sans', Arial, sans-serif;
+                background: var(--background-color);
+                color: var(--text-color);
+            }
+            
+            header {
+                background: var(--primary-color);
+                color: #fff;
+                padding: 16px 0;
+                text-align: center;
+                box-shadow: 0 2px 8px rgba(21, 114, 161, 0.08);
+            }
+            
+            header h1 {
+                margin: 0;
+                font-family: 'Montserrat', Arial, sans-serif;
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+            }
+            
+            nav {
+                margin-top: 12px;
+            }
+            
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 14px;
+                font-weight: 600;
+                transition: color 0.2s;
+            }
+            
+            nav a:hover {
+                color: var(--highlight-color);
+            }
+            
+            section {
+                max-width: 900px;
+                margin: 32px auto;
+                background: #fff;
+                padding: 24px 32px;
+                border-radius: 8px;
+                box-shadow: 0 2px 12px rgba(21, 114, 161, 0.06);
+            }
+            
+            h2 {
+                font-family: 'Montserrat', Arial, sans-serif;
+                color: var(--primary-color);
+                margin-top: 0;
+                letter-spacing: 1px;
+            }
+            
+            ul, ol {
+                padding-left: 24px;
+            }
+            
+            li {
+                margin-bottom: 7px;
+                font-size: 1.05rem;
+            }
+            
+            figure {
+                margin: 20px 0;
+                text-align: center;
+            }
+            
+            figcaption {
+                font-size: 0.97rem;
+                color: var(--secondary-color);
+            }
+            
+            a {
+                color: var(--primary-color);
+                text-decoration: underline;
+                transition: color 0.2s;
+            }
+            
+            a:hover {
+                color: var(--secondary-color);
+            }
+            
+            strong {
+                color: var(--text-color);
+            }
+            
+            
+            @media (max-width: 600px) {
+                section {
+                    padding: 12px 8px;
+                }
+                header h1 {
+                    font-size: 1.5rem;
+                }
+                h2 {
+                    font-size: 1.18rem;
+                }
+            }
