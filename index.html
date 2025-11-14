@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI PROJECT</title>
+    <style>
+    /* Import Google Fonts for modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+    --primary-color: #1572A1;    /* Navy blue accent */
+    --secondary-color: #98C1D9;  /* Soft blue */
+    --background-color: #F7FAFC; /* Off-white background */
+    --text-color: #22223B;       /* Dark gray for text */
+    --highlight-color: #E0FBFC;  /* Light blue for highlights */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(21, 114, 161, 0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--highlight-color);
+}
+
+section {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(21, 114, 161, 0.06);
+}
+
+h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: var(--primary-color);
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+ul, ol {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 7px;
+    font-size: 1.05rem;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.97rem;
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+strong {
+    color: var(--text-color);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    section {
+        padding: 12px 8px;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.18rem;
+    }
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>KARAN</h1>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#About me">About me</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>   
+        </nav>
+    </header>
+    <section id = "Home">   
+        <h2>WELCOME</h2>
+        <p>This is my Mini Project which includes topics like about me, education, skills, projects and contact information.</p>
+    </section>
+
+    <section id = "About me">
+        <h2>About me</h2>
+        My name is <strong> KARAN </strong>. I am 19 years old. I like to play voleyball, love to watch anime and some movies. 
+    </section>
+
+    <section id = "Education">
+        <h2>Education</h2>
+        I have completed my schooling from <strong> Cecil Convent School, Ambala Cantt </strong>. Currently, I am pursuing <strong> B.Tech in Computer Science and Engineering</strong> from <strong>Delhi Technological University (formerly Delhi College of Engineering ), Delhi </strong>.
+    </Section>
+
+    <section id = "Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C language (basic)</li>
+            <li>HTML (basic)</li>
+            <li>CSS (basic)</li>
+        </ul>
+    </section>
+
+    <section id = "Projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>Mini Project on HTML (current project)</li>
+            <li>An idea of a Smart Anti Theft  garbage bin(for Ideathon) </li>
+            <p>Smart Anti Theft Dustbin was an idea for the Ideathon in which a Garbage bin which was to be made which is theft proof, free from vandalism and easy to use as of basic garbage bins</p>
+            <figure>
+                <img src="dustbin.jpeg " width="300" alt="ai generated image of smart dustbin">
+                <figcaption>AI generated image of Smart Anti Theft Garbage bin</figcaption>
+            </figure>
+        </ol>
+    </section>
+     <section id = "Contact">
+        <h2>Contact deatils</h2>
+        <p><strong>Mobile number :</strong> +91 9996964174
+        <p><strong>Personal Email :</strong> karanuvi2024@gmail.com </p>
+        <p><strong> College Email :</strong> karan_cse_25a03037@dtu.ac.in </p>
+        <p> <strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/karan-032914381/">https://www.linkedin.com/in/karan-032914381/</a> </p>
+        <p> <strong>Github :</strong> <a href="https://github.com/karank2024">https://github.com/karank2024</a></p>
+        </section>
+    
+</body>
+</html>
